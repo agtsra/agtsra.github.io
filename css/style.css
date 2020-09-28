@@ -259,6 +259,9 @@ body {
   .unggulan {
     margin-bottom: 60px;
   }
+  .unggulan .lihat-semua-game .btn {
+    margin-top: 30px;
+  }
   .detail {
     margin-bottom: 60px;
   }
