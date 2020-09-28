@@ -1,0 +1,57 @@
+h1 {
+    font-size: 24px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+h3 {
+    font-size: 18px;
+}
+
+p {
+    font-size: 12px;
+}
+
+.btn {
+    font-size: 14px;
+    padding: 12px 24px;
+}
+
+.jumbotron {
+    img {
+        width: 100%;
+    }
+}
+
+.unggulan {
+    margin-bottom: 60px;
+}
+
+.detail {
+    margin-bottom: 60px;
+
+    &-box {
+        li {
+            font-size: 12px;
+        }
+    }
+
+    &-screenshot {
+        padding: 40px 30px;
+    }
+}
+
+.footer {
+    text-align: center;
+
+    &-center {
+        margin-top: 10px;
+    }
+
+    &-right {
+        margin-top: 10px;
+        text-align: center;
+    }
+}
