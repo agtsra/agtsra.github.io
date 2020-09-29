@@ -11,6 +11,39 @@ h1 {
   font-weight: 700;
 }
 
+.tombol-whatsapp {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  padding: 15px;
+  border-radius: 100%;
+  background: #00a100;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+.tombol-whatsapp:hover .overlay {
+  display: block;
+  opacity: 0.2;
+}
+
+.tombol-whatsapp img {
+  width: 30px;
+  height: 30px;
+}
+
+.tombol-whatsapp .overlay {
+  pointer-events: none;
+  opacity: 0;
+  border-radius: 100%;
+  background: white;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
 .btn-primary {
   padding: 16px 36px;
   border-radius: 100px;
@@ -23,6 +56,23 @@ h1 {
 .btn-primary:hover {
   -webkit-box-shadow: 0px 0px 20px 5px rgba(0, 123, 255, 0.3);
           box-shadow: 0px 0px 20px 5px rgba(0, 123, 255, 0.3);
+}
+
+.btn-back {
+  padding: 16px 36px;
+  border-radius: 100px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#eb1515), to(#eb6715));
+  background: linear-gradient(to bottom, #eb1515, #eb6715);
+  outline: none;
+  border: none;
+  color: white;
+  margin-left: 20px;
+}
+
+.btn-back:hover {
+  color: white;
+  -webkit-box-shadow: 0px 0px 20px 5px rgba(235, 21, 21, 0.3);
+          box-shadow: 0px 0px 20px 5px rgba(235, 21, 21, 0.3);
 }
 
 h2 {
@@ -252,6 +302,11 @@ body {
   .btn {
     font-size: 14px;
     padding: 14px 24px;
+    display: block;
+  }
+  .btn-back {
+    margin-top: 15px;
+    margin-left: 0px;
   }
   .jumbotron img {
     width: 100%;
@@ -270,6 +325,9 @@ body {
   }
   .detail-screenshot {
     padding: 40px 30px;
+  }
+  .detail-screenshot img {
+    margin-top: 15px;
   }
   .footer {
     text-align: center;
