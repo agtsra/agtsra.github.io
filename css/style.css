@@ -110,11 +110,25 @@ body {
       -ms-flex-align: center;
           align-items: center;
   height: 70px;
-  background-color: #141E4B;
+  background-color: none;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
 }
 
 .navbar img {
-  height: 50px;
+  height: 60px;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+.scrolled {
+  background-color: #141E4B;
+  -webkit-box-shadow: 50px 0px 10px black;
+          box-shadow: 50px 0px 10px black;
+}
+
+.scrolled img {
+  height: 45px;
 }
 
 .jumbotron {
@@ -132,8 +146,71 @@ body {
   margin-top: 20px;
 }
 
+.slider {
+  margin: 120px 0px;
+  margin-top: 60px;
+}
+
+.slider .swiper-container {
+  width: 100%;
+  height: 400px;
+}
+
+.slider .swiper-container .swiper-pagination-bullet {
+  background: black;
+}
+
+.slider .swiper-container .swiper-button-prev {
+  color: black;
+}
+
+.slider .swiper-container .swiper-button-next {
+  color: black;
+}
+
+.slider .swiper-container .swiper-wrapper :nth-child(1) {
+  background: url("../img/banner1.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.slider .swiper-container .swiper-wrapper :nth-child(2) {
+  background: url("../img/banner2.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.slider .swiper-container .swiper-wrapper :nth-child(3) {
+  background: url("../img/banner3.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.slider .swiper-container .swiper-slide {
+  background: #ccc;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 60px;
+  color: #000;
+}
+
 .unggulan {
   margin-bottom: 120px;
+}
+
+.unggulan .diskon {
+  display: inline-block;
+  font-size: 14px;
+  padding-right: 5px;
+  text-decoration: line-through;
+  font-weight: 400;
 }
 
 .unggulan .game-box {
