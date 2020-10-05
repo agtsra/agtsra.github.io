@@ -389,6 +389,21 @@ body {
   .jumbotron img {
     width: 100%;
   }
+  .slider .swiper-container .swiper-wrapper :nth-child(1) {
+    background: url("../img/banner1-mobile.jpg");
+    background-position: center;
+    background-size: cover;
+  }
+  .slider .swiper-container .swiper-wrapper :nth-child(2) {
+    background: url("../img/banner2-mobile.jpg");
+    background-position: center;
+    background-size: cover;
+  }
+  .slider .swiper-container .swiper-wrapper :nth-child(3) {
+    background: url("../img/banner3-mobile.jpg");
+    background-position: center;
+    background-size: cover;
+  }
   .unggulan {
     margin-bottom: 60px;
   }
