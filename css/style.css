@@ -26,6 +26,8 @@ body::-webkit-scrollbar-thumb {
 }
 
 .tombol-whatsapp {
+  -webkit-animation: bounce 1.5s ease infinite;
+          animation: bounce 1.5s ease infinite;
   z-index: 999999 !important;
   position: fixed;
   right: 20px;
@@ -37,9 +39,8 @@ body::-webkit-scrollbar-thumb {
   transition: all 0.2s ease;
 }
 
-.tombol-whatsapp:hover .overlay {
-  display: block;
-  opacity: 0.2;
+.tombol-whatsapp:hover {
+  background: #00ff00;
 }
 
 .tombol-whatsapp img {
@@ -194,6 +195,7 @@ body {
 }
 
 .slider .swiper-container .swiper-wrapper .swiper-slide {
+  cursor: pointer;
   border-radius: 20px;
 }
 
@@ -241,7 +243,6 @@ body {
 .unggulan .diskon {
   display: inline-block;
   font-size: 14px;
-  padding-right: 5px;
   text-decoration: line-through;
   font-weight: 400;
 }
